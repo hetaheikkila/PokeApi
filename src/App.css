@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8580561c-6a70-4549-bc0a-d2668357e9ba/dfxbhf4-c55b77f7-55e5-4f8b-b731-80cdb76aead4.jpg/v1/fill/w_1280,h_1921,q_75,strp/151_pokemon_from_memory_by_raposavyk_dfxbhf4-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTkyMSIsInBhdGgiOiJcL2ZcLzg1ODA1NjFjLTZhNzAtNDU0OS1iYzBhLWQyNjY4MzU3ZTliYVwvZGZ4YmhmNC1jNTViNzdmNy01NWU1LTRmOGItYjczMS04MGNkYjc2YWVhZDQuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.L2CBfDZTEUt-KGBC_8p9lQwQY4u-TiQWg77vBOr04xc");
+  }
+  
+  .App {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    flex-direction: column;
+  }
+  
+  .TitleSection {
+    position: fixed;
+    top: 0;
+    background-color: bisque;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+  }
+  
+  .TitleSection input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    padding-left: 10px;
+  }
+  
+  .TitleSection button {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 20px;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: beige;
+    color: black;
+  }
+  
+  .TitleSection button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: coral;
+    border: 1px solid black;
+  }
+  
+  .DisplaySection {
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+  }
+  .DisplaySection h4, h3{
+    margin: 7px;
+  }
+  .Contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
